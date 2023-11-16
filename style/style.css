@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    width: 100vw;
+    height: vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCalc{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    background-color: #f3f3f3f3;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2rem serif;
+    border-bottom: solid px black;
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/*.input input{
+    width: ;
+}
+*/
